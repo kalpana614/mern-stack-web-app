@@ -1,3 +1,4 @@
+//1.Javascript restaurantManager class
 class restaurantManager {
   restaurantList = [
     {

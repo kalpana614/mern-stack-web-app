@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafbfc;
+  font-family: Poppins;
+}
+.navbar {
+  background-color: #ce0505;
+  padding: 16px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: 80%;
+  margin: 30px auto 0 auto;
+}
+.auth-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+.login-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+.register-btn {
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 10px 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.restaurants-list-wrapper {
+  border: 1px solid #dedfe5;
+  margin: 0px auto 30px auto;
+  padding: 30px 0px 90px 90px;
+  width: max(80%, 550px);
+}
+.breakfast-places-mumbai {
+  font-weight: bold;
+  font-size: 36px;
+  color: #192f60;
+  margin-bottom: 12px;
+}
+.filter-Sort {
+  display: none;
+}
+.page-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+}
+.filters-list {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 16px 18px;
+}
+.filters {
+  font-weight: 600;
+  font-size: 18px;
+}
+.filter-titles {
+  display: block;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.select-location {
+  border: 1px solid #8c96ab;
+  border-radius: 3px;
+  padding-left: 8px;
+  width: 208px;
+  height: 35px;
+  font-family: poppins;
+  font-size: 14px;
+  color: #8c96ab;
+  margin-bottom: 5px;
+}
+.checkbox-list {
+  font-size: 14px;
+  color: #8c96ab;
+}
+.north-indian {
+  margin-bottom: 8px;
+}
+.south-indian {
+  margin-bottom: 8px;
+}
+.chinese {
+  margin-bottom: 8px;
+}
+.fast-food {
+  margin-bottom: 8px;
+}
+.street-food {
+  margin-bottom: 8px;
+}
+
+.cost-list {
+  font-size: 14px;
+  color: #8c96ab;
+}
+.lt-500 {
+  margin-bottom: 8px;
+}
+.btw-500-1000 {
+  margin-bottom: 8px;
+}
+.btw-1000-1500 {
+  margin-bottom: 8px;
+}
+.btw-1500-2000 {
+  margin-bottom: 8px;
+}
+.gt-2000 {
+  margin-bottom: 8px;
+}
+.sort {
+  font-weight: 600;
+  font-size: 18px;
+  color: #192f60;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.sort-list {
+  font-size: 14px;
+  color: #8c96ab;
+}
+.low-high {
+  margin-bottom: 8px;
+}
+.high-low {
+  margin-bottom: 8px;
+}
+.rounded-corners {
+  border-radius: 20px;
+}
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-grow: 1;
+}
+.restaurant-cards {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+}
+.restaurant-details {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.restaurant-name {
+  font-weight: 600;
+  font-size: 30px;
+  color: #192f60;
+}
+.fort {
+  color: #192f60;
+}
+.restaurant-address {
+  color: #636f88;
+}
+hr {
+  color: #dedfe5;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.bakery {
+  margin-left: 100px;
+  color: #192f60;
+}
+.rs-700 {
+  margin-left: 60px;
+  color: #192f60;
+}
+.cuisines {
+  color: #636f88;
+  margin-bottom: 10px;
+}
+.cost-for-two {
+  color: #636f88;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  float: left;
+  padding: 4px 12px;
+  text-decoration: none;
+  border: 1px solid #8c96ab;
+  border-radius: 7px;
+  margin: 0 4px;
+  color: #8c96ab;
+}
+
+.pagination a.active {
+  background-color: #8c96ab;
+  border: 1px solid #8c96ab;
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.previous {
+  opacity: 0.4;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #fbfbfb;
+  }
+  .navbar {
+    padding: 16px 50px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .filters-tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 3px #0000001a;
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    height: 80px;
+    margin: 0px 25px 20px 25px;
+    padding: 20px 30px;
+    width: min(90%, 550px);
+  }
+  .filters-tab .filter-text {
+    font-weight: 600;
+    font-size: 25px;
+    color: #192f60;
+  }
+  .filters-tab .arrow-down-icon {
+    width: 16px;
+    height: 16px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg) translateY(-10px);
+  }
+  .filters-list {
+    display: none;
+  }
+  .page-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .breakfast-places-mumbai {
+    font-size: 26px;
+    margin: 40px 0px 20px 30px;
+  }
+  .restaurant-cards {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 150px;
+    padding-left: 50px;
+  }
+  .restaurants-list-wrapper {
+    padding: 0px 0px;
+    border: none;
+    justify-content: center;
+    width: auto;
+  }
+  .restaurant-name {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+//steps to create APIs
+
+
+//1. create server(using express)-Done.
+//2. create application structure-Done
+//3. configure routes/endpoints for APIs.-Done
+//4. create controllers-Done.
+//5. create database-Done.
+//6. connect database.
+//7. create Repository
+//8. use Repository in controller for registration and login.
+//9. JWT based authentication.9
